@@ -8,8 +8,8 @@ import urequests
 # CONFIGURAÇÃO DE REDE
 # =========================
 
-WIFI_SSID = ""
-WIFI_PASSWORD = ""
+WIFI_SSID = "sua_rede"
+WIFI_PASSWORD = "sua_senha"
 
 # "http://IP:5000/evento"
 WEBHOOK_URL = "http://IP:5000/evento"

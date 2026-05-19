@@ -1,6 +1,6 @@
 # Totem de Decisões Compartilhadas
 
-Prova de conceito de jogo socioenativo desenvolvida como Projeto Final de Graduação (PFG) no Instituto de Computação da UNICAMP.
+Projeto Final de Graduação (PFG) de jogo socioenativo desenvolvida no Instituto de Computação da UNICAMP.
 
 O artefato provoca **reflexão e diálogo sobre ética e tecnologia** — privacidade, consentimento, uso de dados e IA — por meio de decisões físicas e compartilhadas que avançam microhistórias narrativas em uma interface web.
 
@@ -26,7 +26,7 @@ A interação se dá em grupo: os participantes pressionam botões e ajustam um 
 │   ├── historias/
 │   │   ├── ia_escolar.py           # Microhistória: A IA na Sala de Aula
 │   │   └── brinquedo_inteligente.py # Microhistória: O Brinquedo Inteligente
-│   ├── motor.py          # Motor de progressão narrativa
+│   ├── motor.py          # Engine de progressão narrativa
 │   └── servidor.py       # Servidor Flask (recebe eventos, serve painel web)
 │
 ├── requirements.txt
