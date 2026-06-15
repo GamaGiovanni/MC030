@@ -63,11 +63,11 @@ def carregar_historias():
 
 HISTORIAS_DISPONIVEIS, ERROS_HISTORIAS = carregar_historias()
 
-HISTORIA_PADRAO_ID = (next(iter(HISTORIAS_DISPONIVEIS)) if HISTORIAS_DISPONIVEIS else None)
+HISTORIA_PADRAO_ID = next(iter(HISTORIAS_DISPONIVEIS))
 
 app = Flask(__name__)
 
-engine = MicrohistoriaEngine(HISTORIA_PADRAO_ID)
+engine = MicrohistoriaEngine(HISTORIAS_DISPONIVEIS[HISTORIA_PADRAO_ID])
 
 estado = {
     "confianca":   50,
